@@ -14,16 +14,17 @@ body {
     color: #F9FAF8;
     background-color: #0d64df;
     min-height: 400px;
-}
+    }
 
 .header h1 {
     font-weight: bold;
-    line-height: 1.2;
-}
+    margin-bottom: -0.1rem;
+    }
 
 .header p {
     font-size: 45%;
     font-weight: 400;
+    line-height: 1;
     }
 
 .box {
@@ -70,7 +71,12 @@ h2 {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
-}
+    }
+
+.navbar .logo img {
+    height: 60px;
+    width: 60px;
+    }
 
 .navbar .container {
     display: flex;
@@ -125,4 +131,85 @@ h2 {
     height: 250px;
     border: 5px solid black;
     border-radius: 12px;
+}
+
+.quote {
+    background: #E5E7EB;
+    min-height: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    }
+
+.quote h1 {
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote p {
+    font-size: italic;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.action {
+    background: white;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+.action .container {
+    display: flex;
+    background: #3882F6;
+    height: 200px;
+    width: 1200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.action h2 {
+    color: white;
+    margin-bottom: -0.1rem;
+}
+
+.action p {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.action button {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+.footer {
+    min-height: 100px;
+    color: white;
+    background: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
